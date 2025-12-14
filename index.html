@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Building Robust Forms in React</title>
+    <meta
+      name="description"
+      content="Bincom Knowledge Development Session - December 2025"
+    />
+    <meta name="author" content="Your Name" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS via CDN (full, fast for prototyping) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Customize Tailwind colors/fonts -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#3b82f6", // blue-500
+              accent: "#10b981", // emerald-500
+              darkbg: "#1e293b",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" id="theme" />
+    <!-- Try moon.css or white.css later -->
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Slide 1: Title -->
+        <section data-background-color="#0f172a">
+          <h1 class="text-6xl font-bold text-white">
+            Building Robust Forms in React
+          </h1>
+          <h3 class="text-3xl mt-12 text-gray-300">
+            Bincom Knowledge Development Session
+          </h3>
+          <p class="mt-16 text-2xl text-gray-400">
+            Your Name • December 14, 2025
+          </p>
+        </section>
+
+        <!-- Slide 2: Agenda/Why -->
+        <section>
+          <h2 class="text-5xl font-bold text-primary mb-12">
+            Why Robust Forms Matter
+          </h2>
+          <ul class="space-y-6 text-2xl">
+            <li>Forms are core to almost every web app</li>
+            <li>Poor forms → bugs, bad UX, security risks</li>
+            <li>Modern React gives us powerful tools</li>
+            <li>We'll cover best practices + popular libraries</li>
+          </ul>
+        </section>
+
+        <!-- More slides coming soon! -->
+      </div>
+    </div>
+
+    <!-- Reveal.js -->
+    <script src="dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        transition: "slide", // try 'fade', 'convex', 'zoom'
+        // Add plugins later if needed
+      });
+    </script>
+  </body>
+</html>

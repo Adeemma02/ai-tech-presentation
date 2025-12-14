@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>AI as Your Superpower: How Developers Can 10x Productivity in 2025</title>
+    <title>Impact of AI on Developer Productivity in 2025</title>
     <meta name="description" content="Bincom Knowledge Development Session">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Adesemowo Emmanuel">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -33,223 +33,228 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 
-    <!-- Reveal.js CSS -->
-    <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <!-- Reveal.js CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/theme/black.min.css" id="theme">
 
     <!-- Highlight.js for code syntax -->
-    <!-- <link rel="stylesheet" href="plugin/highlight/monokai.css"> -->
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai-sublime.min.css">
 
+    <style>
+  .smaller-title h1 {
+    font-size: 4rem !important;  
+  }
+  .smaller-title h2 {
+    font-size: 3rem !important;
+  }
+  /* .smaller-title h6 {
+    font-size: 2rem !important;
+  } */
+</style>
+  </head>
   <body>
     <div class="reveal">
       <div class="slides">
 
         <!-- Slide 1: Title -->
-        <section data-background-color="#0f172a">
-          <h1 class="text-6xl font-black text-white leading-tight">
-            AI as Your Superpower
+        <section data-background-color="#0f172a" class="smaller-title">
+          <h1 class="text-4xl font-black text-white leading-tight">
+            Impact of AI on Developer Productivity
           </h1>
-          <h2 class="text-4xl mt-8 text-primary font-bold">
-            How Developers Can 10x Productivity in 2025
+          <h2 class="text-3xl mt-8 text-primary font-bold">
+            Opportunities, Realities & Staying Ahead in 2025
           </h2>
           <p class="mt-16 text-2xl text-gray-300">Bincom Knowledge Development Session</p>
-          <p class="mt-4 text-xl text-gray-400">Your Name • December 14, 2025</p>
+          <h6 class="mt-4 text-xl text-gray-400">Adesemowo Emmanuel • December 17, 2025</h6>
           <aside class="notes">
-            Welcome everyone! Today we're talking about how AI is changing the way we code — not replacing us, but making us faster and smarter.
+            Welcome everyone! We'll explore the real impact of AI on developer productivity – the proven gains, limitations, and what it means for us at Bincom.
           </aside>
         </section>
 
-        <!-- Slide 2: Why Now? -->
+        <!-- Slide 2: What the Data Says -->
         <section>
-          <h2 class="text-5xl font-bold text-primary mb-12">Why AI Matters for Developers in 2025</h2>
-          <div class="space-y-8 text-2xl text-gray-200">
-            <p>→ Over <strong class="text-accent">85% of developers</strong> now use AI tools regularly</p>
-            <p>→ Studies show <strong class="text-accent">20-40% productivity gains</strong> in real projects</p>
-            <p>→ AI is no longer "future tech" — it's in your editor <em>today</em></p>
-          </div>
-          <aside class="notes">
-            The shift is real. GitHub reports millions of lines of code written with Copilot daily. This isn't hype — it's happening now.
-          </aside>
+          <h2 class="text-5xl font-bold text-primary mb-12">What the Data Says About AI Productivity (2025)</h2>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>84–85% of developers now regularly use AI tools</li>
+            <li>AI generates around <strong class="text-accent">41%</strong> of code in many projects</li>
+            <li>Self-reported gains: <strong class="text-accent">up to 55% faster</strong> on routine tasks (GitHub)</li>
+            <li>But a controlled study found experienced developers <strong class="text-accent">19% slower</strong> on complex, familiar tasks (METR, 2025)</li>
+          </ul>
+          <p class="mt-12 text-xl text-gray-400">Sources: Index.dev, JetBrains, Stack Overflow 2025 Surveys; METR RCT Study</p>
+          <p class="mt-8 text-xl text-gray-400">Big wins for repetitive work — mixed results for advanced challenges</p>
         </section>
 
-        <!-- Slide 3: The Truth -->
-        <section data-background-color="#1e293b">
-          <h2 class="text-5xl font-bold text-white">AI Won't Replace Developers</h2>
-          <p class="text-4xl mt-16 text-accent font-bold">
-            But developers who use AI<br>will replace those who don't
-          </p>
-          <p class="mt-12 text-2xl text-gray-300">— Andrej Karpathy, ex-OpenAI</p>
-          <aside class="notes">
-            This quote gets attention. The point: AI amplifies skill. Great devs become superhuman. Average ones fall behind if they ignore it.
-          </aside>
-        </section>
-
-        <!-- Slide 4: Top Tools -->
+        <!-- Slide 3: Top AI Tools -->
         <section>
-          <h2 class="text-5xl font-bold text-primary mb-12">Top AI Tools in 2025</h2>
+          <h2 class="text-5xl font-bold text-primary mb-12">Most Popular AI Tools for Developers in 2025</h2>
           <div class="grid grid-cols-2 gap-8 text-xl">
             <div class="bg-card p-8 rounded-xl">
               <h3 class="text-3xl font-bold text-accent">GitHub Copilot</h3>
-              <p class="mt-4">Best inline suggestions<br>Seamless VS Code integration</p>
+              <p class="mt-4">Real-time code suggestions inside your editor</p>
             </div>
             <div class="bg-card p-8 rounded-xl">
               <h3 class="text-3xl font-bold text-accent">Cursor</h3>
-              <p class="mt-4">AI-first editor<br>Great for full files/projects</p>
+              <p class="mt-4">AI-powered editor that understands entire projects</p>
             </div>
             <div class="bg-card p-8 rounded-xl">
-              <h3 class="text-3xl font-bold text-accent">Claude 3.5 / Grok</h3>
-              <p class="mt-4">Best reasoning & debugging<br>Long context = big wins</p>
+              <h3 class="text-3xl font-bold text-accent">Claude / Grok</h3>
+              <p class="mt-4">Best for deep reasoning, debugging, and long-context help</p>
             </div>
             <div class="bg-card p-8 rounded-xl">
               <h3 class="text-3xl font-bold text-accent">Aider / Windsurf</h3>
-              <p class="mt-4">CLI power tools<br>Edit codebases via chat</p>
+              <p class="mt-4">Command-line agents that edit whole codebases via chat</p>
             </div>
           </div>
-          <aside class="notes">
-            These are the leaders right now. Copilot for daily use, Claude for complex thinking, Cursor for big refactors.
-          </aside>
         </section>
 
-        <!-- Slide 5: Code Generation -->
+        <!-- Slide 4: Key Advantages -->
         <section>
-          <h2 class="text-5xl font-bold text-primary mb-8">1. Code Generation & Completion</h2>
-          <pre><code data-trim data-noescape class="hljs javascript">
-function calculateTax(income) {
-  // TODO: implement progressive tax brackets
-}
-          </code></pre>
-          <p class="mt-8 text-2xl text-gray-300">→ Copilot suggests entire function in one tab</p>
-          <aside class="notes">
-            Show how fast boilerplate disappears. Great for forms, API clients, utils.
-          </aside>
-        </section>
-
-        <!-- Slide 6: Debugging -->
-        <section>
-          <h2 class="text-5xl font-bold text-primary mb-8">2. Debugging & Explanation</h2>
-          <p class="text-2xl mb-8">Paste error + code → instant root cause</p>
-          <pre><code data-trim class="hljs bash">
-TypeError: Cannot read properties of undefined (reading 'map')
-          </code></pre>
-          <p class="mt-8 text-2xl text-accent font-bold">Claude: "You're mapping over 'items' which is undefined when loading"</p>
-          <aside class="notes">
-            This saves HOURS. Especially with complex state bugs in React.
-          </aside>
-        </section>
-
-        <!-- Slide 7: Refactoring -->
-        <section>
-          <h2 class="text-5xl font-bold text-primary mb-8">3. Refactoring & Modernizing</h2>
-          <p class="text-2xl mb-8">Turn class components → functional<br>Callbacks → hooks<br>Legacy code → clean</p>
-          <p class="mt-8 text-3xl text-accent">"Convert this to use React Hook Form"</p>
-          <aside class="notes">
-            Real power move: AI handles the tedious migration work.
-          </aside>
-        </section>
-
-        <!-- Slide 8: Frontend Magic -->
-        <section>
-          <h2 class="text-5xl font-bold text-primary mb-8">Frontend Developers: Special Wins</h2>
-          <ul class="space-y-6 text-2xl">
-            <li>→ Describe UI → get Tailwind + React code</li>
-            <li>→ "Make a dark mode toggle with animation"</li>
-            <li>→ Tools like <strong>v0.dev</strong> generate full components from prompts</li>
+          <h2 class="text-5xl font-bold text-primary mb-12">Key Advantages of Using AI in Development</h2>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>Faster writing of boilerplate and repetitive code</li>
+            <li>Instant debugging help and clear explanations</li>
+            <li>Quick refactoring and modernizing legacy code</li>
+            <li>Frees your time for high-level design and logic</li>
+            <li>Up to <strong class="text-accent">55% faster</strong> completion of routine tasks</li>
           </ul>
-          <aside class="notes">
-            This is where React devs shine with AI. You focus on logic, AI handles styling boilerplate.
-          </aside>
         </section>
 
-        <!-- Slide 9: Best Practices -->
-        <section>
-          <h2 class="text-5xl font-bold text-primary mb-12">Best Practices (Don't Get Burned)</h2>
-          <ul class="space-y-6 text-2xl text-left max-w-4xl mx-auto">
-            <li>Always <strong>review & test</strong> AI-generated code</li>
-            <li>Write <strong>specific prompts</strong> with context</li>
-            <li>Use AI for <strong>boilerplate & repetition</strong></li>
-            <li>Keep <strong>architecture decisions</strong> human</li>
-            <li>Never paste sensitive code/keys</li>
+        <!-- Slide 5: AI as Personal Assistant -->
+        <section data-background-color="#1e293b">
+          <h2 class="text-5xl font-bold text-white mb-12">AI Is Your Personal Coding Assistant</h2>
+          <p class="text-3xl text-gray-200 max-w-4xl mx-auto">It takes care of the tedious parts so you can focus on what matters:</p>
+          <ul class="mt-12 space-y-8 text-3xl text-gray-200">
+            <li>System architecture & design</li>
+            <li>Creative problem-solving</li>
+            <li>Understanding business requirements</li>
+            <li>Building robust, maintainable solutions</li>
           </ul>
-          <aside class="notes">
-            Key message: AI is a tool, not a replacement. Stay in control.
-          </aside>
+          <p class="mt-16 text-3xl text-accent">AI amplifies your skills — it does not replace them</p>
         </section>
 
-        <!-- Slide 10: Pitfalls -->
+        <!-- Slide 6: Boost for Beginners -->
+        <section>
+          <h2 class="text-5xl font-bold text-primary mb-12">Why AI Is Especially Powerful for Beginners</h2>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>Explains unfamiliar code instantly</li>
+            <li>Teaches best practices from day one</li>
+            <li>Speeds up learning new languages or frameworks</li>
+            <li>Studies show junior developers gain the most productivity</li>
+            <li class="text-accent font-bold">Perfect opportunity for Bincom trainees to level up fast!</li>
+          </ul>
+        </section>
+
+        <!-- Slide 7: Limitations -->
         <section data-background-color="#991b1b">
-          <h2 class="text-5xl font-bold text-white">Common Pitfalls</h2>
-          <ul class="mt-12 space-y-6 text-2xl text-gray-200">
-            <li>Over-reliance → weaker fundamentals</li>
-            <li>Accepting wrong/hallucinated code</li>
-            <li>Slowing down experienced devs (if misused)</li>
-            <li>Security risks with blind copy-paste</li>
+          <h2 class="text-5xl font-bold text-white mb-12">Real Limitations & Risks of AI Tools</h2>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>Generates incorrect or insecure code</li>
+            <li>Suggests non-existent packages (security risk)</li>
+            <li>Over-reliance can weaken core programming skills</li>
+            <li>May slow down experienced devs on complex tasks (up to 19% slower in studies)</li>
+            <li>Privacy concerns when sharing sensitive code</li>
           </ul>
-          <aside class="notes">
-            Balance is key. Some seniors find AI slows them if they over-use it.
-          </aside>
+          <p class="mt-12 text-2xl text-gray-300">AI is powerful, but still far from perfect</p>
         </section>
 
-        <!-- Slide 11: Future -->
+        <!-- Slide 8: Best Practices -->
         <section>
-          <h2 class="text-5xl font-bold text-primary mb-12">The Future: Agentic AI</h2>
-          <p class="text-3xl">AI that can:</p>
-          <ul class="mt-8 space-y-6 text-2xl">
-            <li>Plan and execute multi-step tasks</li>
-            <li>Run tests, fix bugs, deploy</li>
-            <li>Build features from tickets</li>
+          <h2 class="text-5xl font-bold text-primary mb-12">Best Practices to Get the Most Out of AI</h2>
+          <ul class="space-y-8 text-2xl text-left max-w-4xl mx-auto text-gray-200">
+            <li>Always <strong>review and test</strong> every line of AI-generated code</li>
+            <li>Write <strong>detailed, specific prompts</strong> with full context</li>
+            <li>Use AI for boilerplate and repetition, not for system architecture</li>
+            <li>Never share secrets, keys, or sensitive client data</li>
+            <li>Combine tools wisely (e.g., Copilot + Claude chat)</li>
           </ul>
-          <p class="mt-12 text-2xl text-accent">Coming in 2026 → your pair programmer levels up</p>
-          <aside class="notes">
-            Exciting close to the vision. Tools like Devin, Cursor Agent are early versions.
-          </aside>
         </section>
 
-        <!-- Slide 12: Takeaways -->
+        <!-- Slide 9: Job Security -->
+        <section>
+          <h2 class="text-5xl font-bold text-primary mb-12">AI and Developer Job Security</h2>
+          <p class="text-3xl text-gray-200 mb-8">AI changes jobs — it doesn't eliminate them</p>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>Demand for skilled developers continues to grow</li>
+            <li>Juniors who adopt AI early gain a huge advantage</li>
+            <li>Seniors are needed for oversight and complex problems</li>
+            <li>AI enables more software → more development work overall</li>
+            <li class="text-accent">Developers who master AI will be in highest demand</li>
+          </ul>
+        </section>
+
+        <!-- Slide 10: Organizational Reliance -->
+        <section data-background-color="#1e293b">
+          <h2 class="text-5xl font-bold text-white mb-12">Why Organizations Cannot Rely on AI Alone</h2>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>Humans define requirements and drive innovation</li>
+            <li>Security, ethics, and compliance need human judgment</li>
+            <li>Long-term architecture and maintainability require experience</li>
+            <li>Novel bugs and edge cases still need human creativity</li>
+            <li class="text-accent font-bold">AI is a powerful tool — humans provide the vision</li>
+          </ul>
+        </section>
+
+        <!-- Slide 11: Future Outlook -->
+        <section>
+          <h2 class="text-5xl font-bold text-primary mb-12">Looking Ahead: The Rise of Agentic AI (2026+)</h2>
+          <p class="text-3xl text-gray-200 mb-8">Agentic AI goes beyond suggestions — it can autonomously plan and execute tasks</p>
+          <ul class="space-y-8 text-2xl text-gray-200">
+            <li>Plan multi-step features from requirements</li>
+            <li>Run tests, fix bugs, and suggest deployments</li>
+            <li>Coordinate across files and tools</li>
+            <li class="text-accent">Your AI assistant becomes a true collaborative partner</li>
+          </ul>
+          <p class="mt-12 text-2xl text-gray-400">Early examples emerging in 2025; major advances expected in 2026</p>
+        </section>
+
+        <!-- Slide 12: Take Home -->
         <section data-background-color="#0f172a">
-          <h2 class="text-5xl font-bold text-white mb-12">Your Action Steps This Week</h2>
-          <ol class="space-y-8 text-3xl text-left max-w-4xl mx-auto">
-            <li>1. Try <strong>GitHub Copilot</strong> (free trial) or <strong>Claude</strong> web</li>
-            <li>2. Use AI on one real task (bug, feature, refactor)</li>
-            <li>3. Write better prompts — be specific!</li>
-            <li>4. Review everything — stay sharp</li>
+          <h2 class="text-5xl font-bold text-white mb-12">Take Home Message: Stay Adaptable</h2>
+          <ol class="space-y-8 text-3xl text-left max-w-4xl mx-auto text-gray-200">
+            <li>Start experimenting with AI tools this week</li>
+            <li>Practice writing clear, specific prompts</li>
+            <li>Always critically review AI suggestions</li>
+            <li>Keep strengthening your core programming fundamentals</li>
+            <li>Embrace AI to grow faster and deliver more value at Bincom</li>
           </ol>
-          <p class="mt-16 text-2xl text-primary font-bold">Start small. Win big.</p>
-          <aside class="notes">
-            Clear call to action. They leave with next steps.
-          </aside>
+          <p class="mt-16 text-3xl text-primary font-bold">The future belongs to adaptable developers</p>
         </section>
 
         <!-- Slide 13: Q&A -->
         <section data-background-color="#1e293b">
           <h1 class="text-7xl font-bold text-white">Q&A</h1>
-          <p class="mt-16 text-3xl text-gray-300">Questions? Thoughts? Favorite AI tool?</p>
+
+          <ul class="mt-8 space-y-6 text-2xl text-gray-200">
+            <!-- <li>→ Have you tried any AI tools yet? What was your experience?</li> -->
+            <li>→ Do you think AI helps more with learning new things or speeding up daily tasks?</li>
+            <li>→ What concerns do you have about using AI in our projects at Bincom?</li>
+          </ul>
           <p class="mt-12 text-2xl text-primary">Let's discuss!</p>
-          <aside class="notes">
-            Open the floor. Great discussions usually come from this topic.
-          </aside>
         </section>
 
-        <!-- Final Thank You -->
+        <!-- Slide 14: Thank You -->
         <section data-background-color="#0f172a">
           <h1 class="text-6xl font-bold text-white">Thank You!</h1>
-          <p class="mt-12 text-3xl text-primary">Slides: ai-tech-presentation.vercel.app</p>
-          <p class="mt-8 text-2xl text-gray-300">Reach out anytime for AI tips 🚀</p>
+          <p class="mt-12 text-3xl text-primary">Feel free to reach out for AI tips or recommendations 🚀</p>
+          <a href="https://ai-tech-presentation.vercel.app/" target="_blank" class="mt-8 text-2xl text-blue-300">https://ai-tech-presentation.vercel.app/</a>
         </section>
 
       </div>
     </div>
 
-    <!-- Reveal.js -->
-   <script src="dist/reveal.js"></script>
-<script>
-  Reveal.initialize({
-    hash: true,
-    transition: 'slide',
-    slideNumber: 'c/t'
-  });
-</script>
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 
-
+    <script>
+      Reveal.initialize({
+        hash: true,
+        transition: 'slide',
+        slideNumber: 'c/t',
+        plugins: [ RevealHighlight ]
+      });
+    </script>
   </body>
 </html>
